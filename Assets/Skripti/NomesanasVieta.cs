@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 //Jāimportē, lai varētu piesaistīt IDropHandler interfeisu un lietot OnDrop funkciju
 using UnityEngine.EventSystems;
 
-public class NomesanasVieta : MonoBehaviour, IDropHandler{
+public class NomesanasVieta : MonoBehaviour, IDropHandler
+{
     //Uzglabās velkamā objekta rotāciju ap Z asi un noliekamās vietas rotāciju
     //Starpība uzglabās, cik liela Z ass rotācijas leņķa starpība starp abiem objektiem
     private float vietasZrot, velkamaObjeZrot, rotacijasStarpiba;
@@ -15,11 +17,12 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler{
     //Norāde uz skriptu Objekti
     public Objekti objektuSkripts;
 
+
     //Nostradā, ja objektu cenšas nomest uz nometamā lauka
     public void OnDrop(PointerEventData notikums)
     {
         //Pārbauda vai kāds objekts tiek vilkts un nomests
-        if(notikums.pointerDrag != null)
+        if (notikums.pointerDrag != null)
         {
             //Ja nomešanas laukā uzmestā attēla tags sakrīt ar lauka tagu
             if ((notikums.pointerDrag.tag.Equals(tag)))
@@ -37,8 +40,8 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler{
 
                 //Pārbauda vai objektu savstarpējā rotācija neatšķiras vairāk par 9 grādiem
                 //un vai x un y izmēri neatšķiras vairāk par 0.15
-                if((rotacijasStarpiba <=9 || (rotacijasStarpiba >= 351 && rotacijasStarpiba <= 360))
-                    && (xIzmeruStarpiba <=0.15 && yIzmeruStarpiba <= 0.15))
+                if ((rotacijasStarpiba <= 9 || (rotacijasStarpiba >= 351 && rotacijasStarpiba <= 360))
+                    && (xIzmeruStarpiba <= 0.15 && yIzmeruStarpiba <= 0.15))
                 {
                     objektuSkripts.vaiIstajaVieta = true;
                     //Nometamo objektu iecentrē nomešanas vietā
@@ -58,55 +61,68 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler{
                     {
                         case "Atkritumi":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[1]);
-                        break;
+                            objektuSkripts.win++;
+                            break;
 
                         case "Atrie":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[2]);
-                        break;
+                            objektuSkripts.win++;
+                            break;
 
                         case "Skola":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[3]);
-                        break;
+                            objektuSkripts.win++;
+                            break;
 
                         case "b2":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[4]);
+                            objektuSkripts.win++;
                             break;
 
                         case "e46":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[5]);
+                            objektuSkripts.win++;
                             break;
 
                         case "Cementa":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[6]);
+                            objektuSkripts.win++;
                             break;
 
                         case "Policija":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[7]);
+                            objektuSkripts.win++;
                             break;
 
                         case "Traktors1":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[8]);
+                            objektuSkripts.win++;
                             break;
 
                         case "Traktors5":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[9]);
+                            objektuSkripts.win++;
                             break;
 
                         case "Uguns":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[10]);
+                            objektuSkripts.win++;
                             break;
 
                         case "Eskavators":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[11]);
+                            objektuSkripts.win++;
                             break;
 
                         default:
                             Debug.Log("Nedefinēts tags!");
-                        break;
+                            break;
                     }
                 }
-            //Ja objektu tagi neskarīt un nomet nepareizajā vietā
-            } else {
+                //Ja objektu tagi neskarīt un nomet nepareizajā vietā
+            }
+            else
+            {
                 objektuSkripts.vaiIstajaVieta = false;
                 //Atskaņo skaņu
                 objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[0]);
@@ -177,6 +193,10 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler{
                         break;
                 }
             }
+        }
+        if (objektuSkripts.win == 11)
+        {
+            objektuSkripts.panel.SetActive(true);
         }
     }
 }

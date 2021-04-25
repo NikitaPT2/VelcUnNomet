@@ -16,6 +16,8 @@ public class Objekti : MonoBehaviour
     public GameObject traktors5;
     public GameObject ugunsdzeseji;
     public GameObject eskavators;
+    public GameObject panel;
+    public int win = 0;
 
     /*Uzglabās velkamo objektu sākotnējās pozīcijas
     koordinātas (lai zinātu, kur aizmest objektu, ja tas nolikts nepareizajā vietā)*/
@@ -41,9 +43,7 @@ public class Objekti : MonoBehaviour
     [HideInInspector]
     public Vector2 ugunsdzesejiKoord;
     [HideInInspector]
-
     public Vector2 eskavatorsKoord;
-    [SerializeField] private GameObject panelWin;
 
     //Uzglabās ainā esošo kanvu
     public Canvas kanva;
@@ -72,10 +72,5 @@ public class Objekti : MonoBehaviour
         traktors5Koord = traktors5.GetComponent<RectTransform>().localPosition;
         ugunsdzesejiKoord = ugunsdzeseji.GetComponent<RectTransform>().localPosition;
         eskavatorsKoord = eskavators.GetComponent<RectTransform>().localPosition;
-    }
-
-    public void Win()
-    {
-        panelWin.SetActive(true);
     }
 }
