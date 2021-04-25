@@ -41,7 +41,9 @@ public class Objekti : MonoBehaviour
     [HideInInspector]
     public Vector2 ugunsdzesejiKoord;
     [HideInInspector]
+
     public Vector2 eskavatorsKoord;
+    [SerializeField] private GameObject panelWin;
 
     //Uzglabās ainā esošo kanvu
     public Canvas kanva;
@@ -70,5 +72,10 @@ public class Objekti : MonoBehaviour
         traktors5Koord = traktors5.GetComponent<RectTransform>().localPosition;
         ugunsdzesejiKoord = ugunsdzeseji.GetComponent<RectTransform>().localPosition;
         eskavatorsKoord = eskavators.GetComponent<RectTransform>().localPosition;
+    }
+
+    public void Win()
+    {
+        panelWin.SetActive(true);
     }
 }
