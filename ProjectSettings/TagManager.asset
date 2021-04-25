@@ -7,6 +7,13 @@ TagManager:
   - Atkritumi
   - Atrie
   - Skola
+  - Uguns
+  - Traktors1
+  - Traktors5
+  - Policija
+  - Cementa
+  - e46
+  - b2
   layers:
   - Default
   - TransparentFX

@@ -626,7 +626,7 @@ GameObject:
   - component: {fileID: 346384146}
   m_Layer: 5
   m_Name: b2Vieta
-  m_TagString: Untagged
+  m_TagString: b2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -640,7 +640,7 @@ RectTransform:
   m_GameObject: {fileID: 346384142}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 4
@@ -917,7 +917,7 @@ GameObject:
   - component: {fileID: 583633418}
   m_Layer: 5
   m_Name: Traktors5
-  m_TagString: Untagged
+  m_TagString: Traktors5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -931,7 +931,7 @@ RectTransform:
   m_GameObject: {fileID: 583633413}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 19
@@ -1018,7 +1018,7 @@ GameObject:
   - component: {fileID: 738733757}
   m_Layer: 5
   m_Name: CementaMasina
-  m_TagString: Untagged
+  m_TagString: Cementa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1032,7 +1032,7 @@ RectTransform:
   m_GameObject: {fileID: 738733752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 16
@@ -1119,7 +1119,7 @@ GameObject:
   - component: {fileID: 754127097}
   m_Layer: 5
   m_Name: Ugunsdzeseji
-  m_TagString: Untagged
+  m_TagString: Uguns
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1133,7 +1133,7 @@ RectTransform:
   m_GameObject: {fileID: 754127092}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 20
@@ -1220,7 +1220,7 @@ GameObject:
   - component: {fileID: 962603437}
   m_Layer: 5
   m_Name: Policija
-  m_TagString: Untagged
+  m_TagString: Policija
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1234,7 +1234,7 @@ RectTransform:
   m_GameObject: {fileID: 962603432}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 17
@@ -1320,7 +1320,7 @@ GameObject:
   - component: {fileID: 1017573652}
   m_Layer: 5
   m_Name: e46Vieta
-  m_TagString: Untagged
+  m_TagString: e46
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1334,7 +1334,7 @@ RectTransform:
   m_GameObject: {fileID: 1017573648}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 5
@@ -1408,7 +1408,7 @@ GameObject:
   - component: {fileID: 1124546431}
   m_Layer: 5
   m_Name: UgunsdzesejiVieta
-  m_TagString: Untagged
+  m_TagString: Uguns
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1422,7 +1422,7 @@ RectTransform:
   m_GameObject: {fileID: 1124546427}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 10
@@ -1497,7 +1497,7 @@ GameObject:
   - component: {fileID: 1172194639}
   m_Layer: 5
   m_Name: e46
-  m_TagString: Untagged
+  m_TagString: e46
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1511,7 +1511,7 @@ RectTransform:
   m_GameObject: {fileID: 1172194634}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 15
@@ -1663,7 +1663,7 @@ GameObject:
   - component: {fileID: 1240166503}
   m_Layer: 5
   m_Name: Traktors1Vieta
-  m_TagString: Untagged
+  m_TagString: Traktors1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1677,7 +1677,7 @@ RectTransform:
   m_GameObject: {fileID: 1240166499}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 8
@@ -1852,7 +1852,7 @@ GameObject:
   - component: {fileID: 1434419501}
   m_Layer: 5
   m_Name: CementaMasinaVieta
-  m_TagString: Untagged
+  m_TagString: Cementa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1866,7 +1866,7 @@ RectTransform:
   m_GameObject: {fileID: 1434419497}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 6
@@ -1941,7 +1941,7 @@ GameObject:
   - component: {fileID: 1466641199}
   m_Layer: 5
   m_Name: b2
-  m_TagString: Untagged
+  m_TagString: b2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1955,7 +1955,7 @@ RectTransform:
   m_GameObject: {fileID: 1466641194}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 14
@@ -2129,7 +2129,7 @@ GameObject:
   - component: {fileID: 1697333560}
   m_Layer: 5
   m_Name: Traktors5Vieta
-  m_TagString: Untagged
+  m_TagString: Traktors5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2143,7 +2143,7 @@ RectTransform:
   m_GameObject: {fileID: 1697333556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 9
@@ -2218,7 +2218,7 @@ GameObject:
   - component: {fileID: 1757729234}
   m_Layer: 5
   m_Name: Traktors1
-  m_TagString: Untagged
+  m_TagString: Traktors1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2232,7 +2232,7 @@ RectTransform:
   m_GameObject: {fileID: 1757729229}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 18
@@ -2318,7 +2318,7 @@ GameObject:
   - component: {fileID: 1855661385}
   m_Layer: 5
   m_Name: PolicijaVieta
-  m_TagString: Untagged
+  m_TagString: Policija
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2332,7 +2332,7 @@ RectTransform:
   m_GameObject: {fileID: 1855661381}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 423403161}
   m_RootOrder: 7
