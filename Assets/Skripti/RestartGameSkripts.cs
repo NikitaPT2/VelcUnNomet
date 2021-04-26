@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement; //lai stradāt ar ainam
 
 public class RestartGameSkripts : MonoBehaviour
 {
-    // Start is called before the first frame update
     public void restart()
     {
-            SceneManager.LoadScene("PilsetasAina");
+            SceneManager.LoadScene("PilsetasAina"); //load PilsetasAina (restartēt)
     }
 }

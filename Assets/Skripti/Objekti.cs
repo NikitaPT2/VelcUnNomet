@@ -16,8 +16,8 @@ public class Objekti : MonoBehaviour
     public GameObject traktors5;
     public GameObject ugunsdzeseji;
     public GameObject eskavators;
-    public GameObject panel;
-    public int win = 0;
+    public GameObject panel; //panele ar pogam
+    public int win = 0; //skaititājs
 
     /*Uzglabās velkamo objektu sākotnējās pozīcijas
     koordinātas (lai zinātu, kur aizmest objektu, ja tas nolikts nepareizajā vietā)*/

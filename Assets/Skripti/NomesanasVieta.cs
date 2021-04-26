@@ -61,57 +61,57 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler
                     {
                         case "Atkritumi":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[1]);
-                            objektuSkripts.win++;
+                            objektuSkripts.win++; //skaititājs
                             break;
 
                         case "Atrie":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[2]);
-                            objektuSkripts.win++;
+                            objektuSkripts.win++; //skaititājs
                             break;
 
                         case "Skola":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[3]);
-                            objektuSkripts.win++;
+                            objektuSkripts.win++; //skaititājs
                             break;
 
                         case "b2":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[4]);
-                            objektuSkripts.win++;
+                            objektuSkripts.win++; //skaititājs
                             break;
 
                         case "e46":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[5]);
-                            objektuSkripts.win++;
+                            objektuSkripts.win++; //skaititājs
                             break;
 
                         case "Cementa":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[6]);
-                            objektuSkripts.win++;
+                            objektuSkripts.win++; //skaititājs
                             break;
 
                         case "Policija":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[7]);
-                            objektuSkripts.win++;
+                            objektuSkripts.win++; //skaititājs
                             break;
 
                         case "Traktors1":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[8]);
-                            objektuSkripts.win++;
+                            objektuSkripts.win++; //skaititājs
                             break;
 
                         case "Traktors5":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[9]);
-                            objektuSkripts.win++;
+                            objektuSkripts.win++; //skaititājs
                             break;
 
                         case "Uguns":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[10]);
-                            objektuSkripts.win++;
+                            objektuSkripts.win++; //skaititājs
                             break;
 
                         case "Eskavators":
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[11]);
-                            objektuSkripts.win++;
+                            objektuSkripts.win++; //skaititājs
                             break;
 
                         default:
@@ -194,7 +194,7 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler
                 }
             }
         }
-        if (objektuSkripts.win == 11)
+        if (objektuSkripts.win == 11) //ja skaititajs=11, tad paradas panele ar tekstu un pogam
         {
             objektuSkripts.panel.SetActive(true);
         }
